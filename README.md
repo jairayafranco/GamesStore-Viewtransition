@@ -1,6 +1,6 @@
 # Games Store
 
-![Game Store Logo](public\cap.png)
+![Game Store Logo](static/images/game-store.png)
 
 Este es un mini-proyecto llamado "Games Store" que simula una tienda de juegos en línea. La aplicación está construida utilizando [Astro](https://astro.build/), un moderno marco de trabajo para la creación de sitios web con enfoque en el rendimiento. Además, se ha utilizado View Transitions API para mejorar la experiencia de usuario al navegar por la tienda.
 
