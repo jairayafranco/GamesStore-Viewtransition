@@ -1,0 +1,58 @@
+---
+import Layout from "../layouts/Layout.astro";
+import JSONGames from "../data/games.json";
+import Button from "../components/Button.astro";
+import BackButton from "../components/BackButton.astro";
+
+const { game } = Astro.params;
+const gameInfo = JSONGames.games.find((g) => g.id === Number(game));
+
+if (!gameInfo) {
+  return Astro.redirect("/404", 404);
+}
+---
+
+<Layout>
+  <main class="m-auto max-w-4xl text-white">
+    <header class="mt-5">
+      <BackButton />
+    </header>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-[350px_1fr] gap-x-12 mt-4 md:mt-20 px-8"
+    >
+      <div class="flex flex-col">
+        <picture class="mb-3 w-full relative">
+          <img
+            class="aspect-[389/500] h-full w-full max-w-full object-contain"
+            src={gameInfo.image}
+            alt={gameInfo.title}
+            style={`view-transition-name: game-${gameInfo.id}`}
+          />
+        </picture>
+        <Button href={gameInfo.buyUrl} />
+      </div>
+
+      <aside>
+        <h1 class="text-6xl font-black mb-4">{gameInfo.title}</h1>
+        <p class="text-lg mb-10">{gameInfo.description}</p>
+        <p>
+          <strong>Platforms:</strong>
+          <span class="font-semibold">{gameInfo.platform}</span>
+        </p>
+        <p>
+          <strong>Rating:</strong>
+          <span class="font-semibold">{gameInfo.rating}</span>
+        </p>
+        <p>
+          <strong>Genre:</strong>
+          <span class="font-semibold">{gameInfo.genre}</span>
+        </p>
+        <p>
+          <strong>Release Date:</strong>
+          <span class="font-semibold">{gameInfo.releaseDate}</span>
+        </p>
+      </aside>
+    </div>
+  </main>
+</Layout>

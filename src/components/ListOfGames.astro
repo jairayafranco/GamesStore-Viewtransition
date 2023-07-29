@@ -1,0 +1,12 @@
+---
+import JSONGames from "../data/games.json";
+import GameItem from "./GameItem.astro";
+---
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3 px-4">
+  {
+    JSONGames.games.map((game) => (
+      <GameItem id={game.id} image={game.image} title={game.title} />
+    ))
+  }
+</div>

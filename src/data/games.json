@@ -1,0 +1,114 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "image": "https://store-images.s-microsoft.com/image/apps.54176.14330850369313893.19a11f73-3d1d-449c-841a-8b50f0d42436.69a1bca1-21eb-4f88-807f-0c205e93e6c2?q=90&w=177&h=265",
+            "title": "Halo Infinite",
+            "description": "Master Chief returns in the latest installment of the iconic Halo series.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/halo-infinite/9pp5g1f0c2b6",
+            "genre": "First-Person Shooter",
+            "platform": "Xbox Series X|S, PC",
+            "rating": 4.8,
+            "releaseDate": "2023-05-15"
+        },
+        {
+            "id": 2,
+            "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb140891-5c39-4370-8035-59ad91612fef/dav83sz-c9d09ef0-7a93-4ce2-a083-fb9b5a2f375d.jpg/v1/fill/w_400,h_652,q_75,strp/tloz_breath_of_the_wild_game_cover_2_by_gmivan_dav83sz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvZWIxNDA4OTEtNWMzOS00MzcwLTgwMzUtNTlhZDkxNjEyZmVmXC9kYXY4M3N6LWM5ZDA5ZWYwLTdhOTMtNGNlMi1hMDgzLWZiOWI1YTJmMzc1ZC5qcGciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.BTt9j1NFAZZSwZE-40TqfqjY4R6aLDZC_d5judcnvlE",
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "description": "Embark on a new adventure in the kingdom of Hyrule in this open-world adventure game.",
+            "buyUrl": "https://www.nintendo.com/es-co/store/products/the-legend-of-zelda-breath-of-the-wild-switch/",
+            "genre": "Action-Adventure",
+            "platform": "Nintendo Switch",
+            "rating": 4.9,
+            "releaseDate": "2017-03-03"
+        },
+        {
+            "id": 3,
+            "image": "https://store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894?q=90&w=177&h=265",
+            "title": "Cyberpunk 2077",
+            "description": "Explore the futuristic open-world of Night City in this action-packed RPG.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/cyberpunk-2077/bx3m8l83bbrw",
+            "genre": "Action RPG",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.2,
+            "releaseDate": "2020-12-10"
+        },
+        {
+            "id": 4,
+            "image": "https://store-images.s-microsoft.com/image/apps.23288.70702278257994163.3d53b09f-6089-475c-ac1f-443a287576e5.52db1592-4a73-4d72-a798-0e4097018581?q=90&w=177&h=265",
+            "title": "Fortnite",
+            "description": "Join the battle royale phenomenon and build, shoot, and survive to be the last one standing.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/fortnite/bt5p2x999vh2",
+            "genre": "Battle Royale",
+            "platform": "PlayStation 5, Xbox Series X|S, PC, Nintendo Switch",
+            "rating": 4.7,
+            "releaseDate": "2017-07-25"
+        },
+        {
+            "id": 5,
+            "image": "https://store-images.s-microsoft.com/image/apps.58702.13536437121175354.18c8cdb9-4b5c-42e4-ae64-1c5d6063fc7e.54c3f469-3e75-4490-9eee-a6e6b8ceb998?q=90&w=177&h=265",
+            "title": "FIFA 22",
+            "description": "Experience the latest edition of the world's most popular soccer video game.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/fifa-22-para-xbox-one/9n9j38lpvsm3",
+            "genre": "Sports",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.6,
+            "releaseDate": "2021-09-27"
+        },
+        {
+            "id": 6,
+            "image": "https://store-images.s-microsoft.com/image/apps.1547.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.75930d81-6e85-436d-9b61-1279b8dd9b31?q=90&w=177&h=265",
+            "title": "Assassin's Creed Valhalla",
+            "description": "Become a legendary Viking raider in the epic historical adventure.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/assassins-creed-valhalla/9p4njfh17mrt",
+            "genre": "Action-Adventure",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.5,
+            "releaseDate": "2020-11-10"
+        },
+        {
+            "id": 7,
+            "image": "https://store-images.s-microsoft.com/image/apps.32034.68565266983380288.0f5ef871-88c0-45f7-b108-6aacbc041fcf.9b094362-c51d-49e5-9e92-80710c585fca?q=90&w=177&h=265",
+            "title": "Grand Theft Auto V",
+            "description": "Step into the criminal underworld of Los Santos in this action-packed open-world game.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/grand-theft-auto-v-xbox-one/bpj686w6s0nh",
+            "genre": "Action-Adventure",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.9,
+            "releaseDate": "2013-09-17"
+        },
+        {
+            "id": 8,
+            "image": "https://store-images.s-microsoft.com/image/apps.29666.64800374430761253.e8d12d6c-ae41-441b-9e7e-fe3336e8962d.4a46f932-219c-4717-b176-9fce9fc7dd77?q=90&w=177&h=265",
+            "title": "Overwatch 2",
+            "description": "Join the team-based multiplayer shooter with a new generation of heroes.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/overwatch-2/c1c4dzjpbc2v",
+            "genre": "First-Person Shooter",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.7,
+            "releaseDate": "2022-05-24"
+        },
+        {
+            "id": 9,
+            "image": "https://store-images.s-microsoft.com/image/apps.17382.13510798887677013.afcc99fc-bdcc-4b9c-8261-4b2cd93b8845.49beb011-7271-4f15-a78b-422c511871e4?q=90&w=177&h=265",
+            "title": "Minecraft",
+            "description": "Explore and create in an infinite world of blocks and adventures.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/minecraft/9mvxmvt8zkwc",
+            "genre": "Sandbox",
+            "platform": "PlayStation 5, Xbox Series X|S, PC, Nintendo Switch",
+            "rating": 4.8,
+            "releaseDate": "2011-11-18"
+        },
+        {
+            "id": 10,
+            "image": "https://store-images.s-microsoft.com/image/apps.29984.13739535057760905.9506aae3-1290-433f-9d84-f3d91000412d.450f203f-99bf-4637-9918-fa5e599caf55?q=90&w=177&h=265",
+            "title": "Call of Duty: Warzone",
+            "description": "Engage in intense battle royale combat set in the Call of Duty universe.",
+            "buyUrl": "https://www.xbox.com/es-co/games/store/call-of-duty-warzone/9nnfg8bqrcxl",
+            "genre": "Battle Royale",
+            "platform": "PlayStation 5, Xbox Series X|S, PC",
+            "rating": 4.6,
+            "releaseDate": "2020-03-10"
+        }
+    ]
+}

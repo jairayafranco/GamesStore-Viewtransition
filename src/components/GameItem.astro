@@ -1,0 +1,21 @@
+---
+export interface Props {
+  id: number;
+  image: string;
+  title: string;
+}
+
+const { id, image, title } = Astro.props;
+---
+
+<a
+  href={`/${id}`}
+  class="hover:scale-105 inline-block transition-all hover:contrast-125 hover:shadow-2xl"
+>
+  <img
+    class="aspect-[389/500] h-full w-full max-w-full object-contain"
+    alt={title}
+    src={image}
+    style={`view-transition-name: game-${id}`}
+  />
+</a>
